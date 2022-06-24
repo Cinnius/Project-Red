@@ -62,13 +62,14 @@ h1 {
 }
 
 .Header_bg-gradient {
-    background: linear-gradient(to bottom, rgba(236, 236, 236, 1), rgba(198, 127, 127, 0)), url(./media/switzerland-862870_1920.jpg);
+    background: linear-gradient(to bottom, rgb(255, 255, 255, 1), rgba(198, 127, 127, 0)), url(./media/switzerland-862870_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 100px;
 }
 
 .header_dim {
-    height: 100vh;
+    height: 90vh;
     position: relative;
 }
 
@@ -82,6 +83,11 @@ h1 {
 
 /* Navbar */
 
+.navbar-bg{
+    background-color: white;
+    height: 10vh;
+}
+
 .navbar-img {
     height: 50px;
 }
@@ -94,6 +100,18 @@ nav li {
 nav a {
     text-decoration: none;
     color: black;
+}
+
+/* Section 1 */
+
+.Sec1_background{
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(236, 236, 236, 1));
+}
+
+.sec1-img{
+    position: absolute;
+    bottom: 0;
+    padding: 0px;
 }
 
 /* Quote */
@@ -133,4 +151,24 @@ sub {
     background-color: white;
     border-radius: 50%;
     border: 1px solid var(--main);
+}
+
+/* Buttons */
+
+.C_button{
+    padding: 7px 35px;
+    border: none;
+    margin-top: 140px;
+    margin-bottom: 330px;
+}
+
+
+/* Media Query */
+
+/* Sec1_IMG */
+@media screen and (max-width: 1200px) {
+    .C_button{
+        margin-top: 90px;
+        margin-bottom: 150px;
+    }
 }
