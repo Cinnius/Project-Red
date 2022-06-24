@@ -57,21 +57,27 @@ h4 {
 
 /* Header */
 
+h1{
+    letter-spacing: 30px;
+}
+
 .Header_bg-gradient {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(198, 127, 127, 0)), url(./media/switzerland-862870_1920.jpg);
+    background: linear-gradient(to bottom, rgba(236, 236, 236, 1), rgba(198, 127, 127, 0)), url(./media/switzerland-862870_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .header_dim {
-    height: 80%;
+    height: 100vh;
     position: relative;
 }
 
 .header-img {
     position: absolute;
+    height: 90%;
     left: 0px;
     bottom: 0px;
+    
 }
 
 /* Navbar */
@@ -89,6 +95,13 @@ nav a {
     text-decoration: none;
     color: black;
 }
+
+/* Section 1 */
+p > span{
+    font-size: 200%;
+    color: var(--main);
+}
+
 
 /* div {
     height: 1000px;
