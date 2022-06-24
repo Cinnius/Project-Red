@@ -1,0 +1,53 @@
+/* Fonts */
+h1, h2, h3, h4{
+    font-family: 'Nova Square', cursive;
+}
+
+*{
+    font-family: 'Rajdhani', sans-serif; 
+}
+
+:root{
+    --main: rgb(139, 0, 0);
+    --sec: rgb(198, 127, 127);
+    --acc: rgb(236, 236, 236);
+}
+
+/* Main Color */
+.text-main{
+    color: var(--main);
+}
+
+.bg-main{
+    background-color: var(--main);
+}
+
+.border-main{
+    border: 2px solid var(--main);
+}
+
+/* Secondary Color */
+.text-sec{
+    color: var(--sec);
+}
+
+.bg-sec{
+    background-color: var(--sec);
+}
+
+.border-sec{
+    border: 2px solid var(--sec);
+}
+
+/* Accessory Color */
+.text-acc{
+    color: var(--acc);
+}
+
+.bg-acc{
+    background-color: var(--acc);
+}
+
+.border-acc{
+    border: 2px solid var(--acc);
+}
