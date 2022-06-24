@@ -51,3 +51,7 @@ h1, h2, h3, h4{
 .border-acc{
     border: 2px solid var(--acc);
 }
+
+.Header_bg-gradient{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(198, 127, 127, 0)), url(./media/switzerland-862870_1920.jpg)
+}
