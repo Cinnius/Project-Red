@@ -57,7 +57,7 @@ h4 {
 
 /* Header */
 
-h1{
+h1 {
     letter-spacing: 30px;
 }
 
@@ -77,7 +77,7 @@ h1{
     height: 90%;
     left: 0px;
     bottom: 0px;
-    
+
 }
 
 /* Navbar */
@@ -96,14 +96,41 @@ nav a {
     color: black;
 }
 
-/* Section 1 */
-p > span{
+/* Quote */
+
+sub,
+sup {
     font-size: 200%;
+    font-style: italic;
+    font-weight: 600;
     color: var(--main);
+    position: relative;
 }
 
+sup {
+    top: 10px;
+    right: 7px;
+}
 
-/* div {
-    height: 1000px;
-    background-color: aqua;
-} */
+sub {
+    top: 20px;
+}
+
+/* Icons */
+
+.bb-icons {
+    border-bottom: 3px solid var(--main);
+    position: relative;
+}
+
+.bb-icons::after {
+    position: absolute;
+    right: 45%;
+    bottom: -12px;
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid var(--main);
+}
