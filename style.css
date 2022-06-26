@@ -69,7 +69,7 @@ h1 {
 }
 
 .header_dim {
-    height: 90vh;
+    height: 80vh;
     position: relative;
 }
 
@@ -85,7 +85,6 @@ h1 {
 
 .navbar-bg {
     background-color: white;
-    height: 10vh;
 }
 
 .navbar-img {
@@ -187,16 +186,16 @@ sub {
 }
 
 /* Sectopm 2 */
-.Sec2_background{
+.Sec2_background {
     background-color: var(--acc);
 }
 
-.C_Sec2_margin{
+.C_Sec2_margin {
     margin-top: 100px;
     margin-left: 50px;
 }
 
-.C_our_team_img{
+.C_our_team_img {
     height: 200px;
     width: 200px;
     border: 3px solid var(--main);
@@ -205,13 +204,24 @@ sub {
     margin-bottom: 20px;
 }
 
-.C_our_benefit_img{
+.C_our_benefit_img {
     height: 400px;
     width: 400px;
     border: 3px solid var(--main);
     border-radius: 50%;
     padding: 10px;
     margin-bottom: 20px;
+}
+
+/* Footer */
+
+.footer-img {
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
 
 /* Media Query */
