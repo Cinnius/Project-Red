@@ -205,12 +205,21 @@ sub {
     margin-bottom: 20px;
 }
 
+.C_our_benefit_img{
+    height: 400px;
+    width: 400px;
+    border: 3px solid var(--main);
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
 /* Media Query */
 
 /* Sec1_IMG */
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     .C_button {
         margin-top: 90px;
         margin-bottom: 150px;
     }
-}
+} */
