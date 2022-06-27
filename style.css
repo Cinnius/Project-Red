@@ -57,8 +57,8 @@ h4 {
 
 /* Header */
 
-h1 {
-    letter-spacing: 30px;
+.C_Header_Title {
+    letter-spacing: 50px;
 }
 
 .Header_bg-gradient {
@@ -76,9 +76,8 @@ h1 {
 .header-img {
     position: absolute;
     height: 90%;
-    left: 0px;
+    width: 100%;
     bottom: 0px;
-
 }
 
 /* Navbar */
@@ -171,12 +170,12 @@ sub {
 
 .timeline {
     position: relative;
-    margin-left: 15px;
+    padding-left: 15px;
 }
 
 .timeline::before {
     position: absolute;
-    left: -4.5%;
+    left: -12px;
     content: "";
     height: 20px;
     width: 20px;
@@ -192,7 +191,7 @@ sub {
 
 .C_Sec2_margin {
     margin-top: 100px;
-    margin-left: 50px;
+    padding-left: 50px;
 }
 
 .C_our_team_img {
@@ -227,9 +226,13 @@ footer a {
 /* Media Query */
 
 /* Sec1_IMG */
-/* @media screen and (max-width: 1200px) {
-    .C_button {
-        margin-top: 90px;
-        margin-bottom: 150px;
+@media screen and (max-width: 390px) {
+    .C_our_benefit_img {
+        width: 250px;
+        height: 250px;
     }
-} */
+
+    .C_Header_Title {
+        letter-spacing: 15px;
+    }
+}
