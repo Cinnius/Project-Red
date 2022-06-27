@@ -161,8 +161,15 @@ sub {
     margin-bottom: 330px;
 }
 
-/* Sezione 2 */
+/* Section 2 */
 /* Timeline */
+
+.C_Timeline_bg {
+    background-image: url(./media/single.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
 
 .timeline-box {
     border-left: 3px solid var(--main);
@@ -184,7 +191,7 @@ sub {
     border: 1px solid var(--main);
 }
 
-/* Sectopm 2 */
+/* Section 3 */
 .Sec2_background {
     background-color: var(--acc);
 }
